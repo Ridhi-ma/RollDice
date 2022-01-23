@@ -1,0 +1,109 @@
+.flex-container {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  bottom: 220px;
+}
+
+.space {
+  background-color: aliceblue;
+}
+.flexx {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.player0 {
+  position: relative;
+  text-align: center;
+  background-color: rgb(211, 169, 192);
+  width: 70vh;
+  height: 80vh;
+}
+.player1 {
+  position: relative;
+  text-align: center;
+  background-color: lightpink;
+  width: 70vh;
+  height: 80vh;
+}
+.space {
+  background-color: white;
+  position: relative;
+  width: 10rem;
+  height: 5rem;
+  top: 50%;
+  margin: auto;
+}
+.rolldice {
+  height: 50px;
+  width: 150px;
+  top: 100vh;
+  border-width: thick;
+  margin-bottom: 10px;
+}
+.hold {
+  height: 50px;
+  width: 150px;
+  border-width: thick;
+}
+.newgame {
+  height: 50px;
+  width: 150px;
+  border-width: thick;
+  position: relative;
+  text-align: center;
+  align-self: center;
+  justify-content: center;
+  top: 150px;
+  z-index: 10;
+}
+.flex-containers {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-content: center;
+}
+#current0 {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  position: relative;
+  top: 15%;
+  font-size: 30px;
+}
+body {
+  height: fit-content;
+  background-image: linear-gradient(lightblue, rgb(241, 138, 241));
+}
+.score {
+  font-size: 80px;
+  margin: auto;
+  position: relative;
+  top: 15vh;
+}
+.image {
+  position: relative;
+  bottom: 20vh;
+  width: 80px;
+}
+.hidden {
+  display: none;
+}
+#current1 {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  position: relative;
+  top: 15%;
+  font-size: 30px;
+}
+.active--player {
+  background-color: aqua;
+}
+.winner--player {
+  background-color: rgb(187, 219, 45);
+}
